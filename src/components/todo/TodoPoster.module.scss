@@ -1,0 +1,70 @@
+.TodoPoster {
+  margin: 50px auto;
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    .poster {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      background: white;
+      width: 400px;
+      height: auto;
+      border-radius: 5px;
+      height: auto;
+      h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        color: black;
+        margin-top: 10px;
+      }
+      input {
+        width: 300px;
+        outline: none;
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 10px;
+        &::placeholder {
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+            Geneva, Verdana, sans-serif;
+          font-style: inherit;
+          color: rgba(255, 255, 255, 0.667);
+        }
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .deleteBtn {
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+            sans-serif;
+          font-weight: 200;
+          color: white;
+          border: 1px solid transparent;
+          width: 90px;
+          height: 36px;
+          border-radius: 5px;
+          background: #ff2425;
+          margin-bottom: 10px;
+        }
+        .editBtn {
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+            sans-serif;
+          font-weight: 200;
+          color: white;
+          border: 1px solid transparent;
+          width: 90px;
+          height: 36px;
+          border-radius: 5px;
+          background: #2b98c8;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
